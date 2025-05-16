@@ -97,7 +97,7 @@ class QuickPicks extends StatelessWidget {
         ),
         SizedBox(height: 1),
         SizedBox(
-          height: 320,
+          height: 340,
           child: PageView.builder(
             controller: PageController(viewportFraction: 0.88, initialPage: 0),
             itemCount: (songs.length / 4).ceil(),
